@@ -1,0 +1,26 @@
+.boxContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    align-self: flex-end;
+    margin-right: 30px; 
+    margin-top:30px; 
+  }
+  
+  .boxItem {
+    margin: 15px;
+
+  }
+
+  .textItem {
+    position: relative;
+    background-color: var(--lightyellow);
+    width: 110px;
+    height: 50px;
+    text-align: center;
+    color: var(--red);
+    left: 20px;
+    box-shadow: 4px 4px 0px var(--red);
+    border-radius: 7px;
+  }
+

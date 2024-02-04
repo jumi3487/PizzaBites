@@ -1,0 +1,9 @@
+.pizzaItem {
+    margin-left: 300px;
+    margin-right: 50px;
+    margin-top:50px;
+}
+.pizzaContainer {
+    position: relative;
+    overflow: hidden;
+}

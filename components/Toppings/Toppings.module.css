@@ -1,0 +1,115 @@
+@keyframes fallDown {
+  from {
+    transform: translateY(-100%);
+    top: 0%;
+    left:27.2%;
+  }
+  to {
+    transform: translateY(0);
+    left:27.2%;
+    top: 19.9%;
+  }
+}
+
+.inputContainer {
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: 150px;
+  margin-bottom: 300px;
+}
+
+.input {
+  width: 400px;
+  height: 50px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid var(--red);
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+.input:focus {
+  outline: none;
+  border-color: var(--red);
+  box-shadow: 0 0 5px var(--red);
+}
+
+
+.toppingImageTomato {
+  position: absolute;
+  left: 63%;
+  top: 35%; 
+  transform: translate(-154%, -28%);
+  z-index: 1;
+  display: flex;
+  flex-wrap: wrap;
+  animation: fallDown 1s ease-out; 
+}
+
+.toppingImageShrimp {
+  position: absolute;
+  left: 63%;
+  top: 35%; 
+  transform: translate(-154%, -28%);
+  z-index: 2;
+  display: flex;
+  flex-wrap: wrap;
+  animation: fallDown 1s ease-out; 
+}
+
+.toppingImagePineapple{
+  position: absolute;
+  left: 63%;
+  top: 35%;  
+  transform: translate(-154%, -28%);
+  z-index: 1.5;
+  animation: fallDown 1s ease-out;
+}
+
+.toppingImageOlive {
+  position: absolute;
+  left: 63%;
+  top: 35%;  
+  transform: translate(-154%, -28%);
+  z-index: 1.3;
+  animation: fallDown 1s ease-out;
+}
+
+.toppingImageMushroom {
+  position: absolute;
+  left: 63%;
+  top: 35%; 
+  transform: translate(-154%, -28%);
+  z-index: 1;
+  animation: fallDown 1s ease-out;
+}
+
+.toppingImageHam {
+  position: absolute;
+  left: 63%;
+  top: 35%;  
+  transform: translate(-154%, -28%);
+  z-index: 0;
+  animation: fallDown 1s ease-out;
+}
+
+.toppingImageBasil {
+  position: absolute;
+  left: 63%;
+  top: 35%; 
+  transform: translate(-154%, -28%);
+  z-index: 2.5;
+  animation: fallDown 1s ease-out;
+  
+}
+
+.chooseYourTopping {
+  color: var(--lightyellow);
+  background-color: var(--red);
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 15px;
+  padding-bottom:15px;
+  border-radius: 30px;
+  text-align:center;
+}
